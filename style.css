@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor0: #1d6139;
+}
+img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+body{
+    background-color: #3dc4789d;    
+}
+h3{
+    font-family: 'idroid', sans-serif;
+    color: var(--cor0);
+    background-image: linear-gradient(to right, #1d613952 , #1d613900 );
+    text-indent: 15px;
+
+}
+p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-indent: 15px;
+}
+header{
+    background-image: linear-gradient(#2a8652 30%, #0f331e);
+    padding-top: 20px;
+    
+}
+header > h1{
+    font-family: 'idroid', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    padding-top: 10px;
+
+
+}
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-top: 35px;
+    color: rgb(219, 214, 214);
+    font-size: 14px;
+}
+nav > a{
+    color: rgb(148, 148, 148);
+    font-weight: bold;
+    height: auto;
+    text-decoration: none;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 5px;
+    text-indent: 5px;
+}
+nav > a:hover{
+    background-color: rgb(141, 150, 158);
+    color: black;
+    border-radius: 3px;
+    transform: translateY(-3px);
+    transition-duration: 0.5s;
+}
+span{
+    color: #2a8652;
+}
+
+main{
+    background-color:white;
+    margin-left: 30px;
+    margin-right: 30px;
+    min-width: 300px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+section{
+    background-color:white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#história {
+    color: black;
+    padding-top: 10px;
+}
+#história >h2{
+    font-family: 'idroid', sans-serif;
+    color: #1d6139;
+    width: auto;
+}
+#história >p{
+    padding-top: 10px;
+}
+
+#primeira_versão{
+    padding-top: 10px;
+}
+#primeira_versão >p{
+    padding: 10px;
+}
+
+iframe{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+
+}
+
+
+#aprender_mais{
+    border-radius: 10px;
+    margin-top: 25px;
+    background-color: #25915277;
+
+}
+
+#aprender_mais > h4{
+    color: white;
+    background-color: #1d6139;
+    border-radius: 10px 10px 0px 0px;
+    padding: 8px;
+}
+
+#aprender_mais > p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
